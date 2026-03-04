@@ -1,11 +1,79 @@
-# Python-generated files
+# -----------------------
+# Python
+# -----------------------
 __pycache__/
-*.py[oc]
-build/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+*.egg-info/
+.eggs/
 dist/
-wheels/
-*.egg-info
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# -----------------------
+# Jupyter / IPython
+# -----------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.ipython/
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -----------------------
+# Logs / Temp
+# -----------------------
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# -----------------------
+# Environment / Secrets
+# -----------------------
 .env
+.env.*
+!.env.example
+
+# -----------------------
+# Project-specific (RAG)
+# -----------------------
+
+# Raw Notion export docs/assets
+data/notion_export/
+data/notion-export/
+data/notion_export.zip
+data/notion-export.zip
+
+# Vector DB / retrieval artifacts
+data/chroma/
+chroma/
+chromadb/
+
+# Local caches / runtime
+.cache/
+.cache/**
+chroma
