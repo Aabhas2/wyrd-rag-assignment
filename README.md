@@ -6,8 +6,8 @@ Local Q&A over a Notion-exported wiki using:
 - ChromaDB (local vector store)
 - Gradio UI
 
-## Demo Video
-▶️ **Watch the demo:** [demo/demo.mp4](demo/demo.mp4)
+## Demo (click to watch full video)
+[![Demo](demo/demo.gif)](demo/demo.mp4)
 
 ## Prerequisites
 - Python 3.10+ (recommended)
